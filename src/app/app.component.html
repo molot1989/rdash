@@ -16,6 +16,10 @@
             <li class="sidebar-list">
                 <a [routerLink]="['tables']">Tables <span class="menu-icon fa fa-table"></span></a>
             </li>
+             <li class="sidebar-list">
+                <a routerLink="map" routerLinkActive="active">Map <span class="menu-icon fa fa-map"></span></a>
+            </li>
+
         </ul>
         <div class="sidebar-footer">
             <div class="col-xs-4">
@@ -103,7 +107,7 @@
             </div>
             <!-- End Header Bar -->
 
-            <!--&lt;!&ndash; Main Content &ndash;&gt;-->
+            <!--&lt;!&ndash; Main Content &ndash;&gt;-->    
             <router-outlet></router-outlet>
 
         </div><!-- End Page Content -->

@@ -21,13 +21,15 @@
         "styles.scss",
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/font-awesome/css/font-awesome.css",
-        "../node_modules/rdash-ui/dist/css/rdash.css"
-
+        "../node_modules/rdash-ui/dist/css/rdash.css",
+        "../node_modules/leaflet/dist/leaflet.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/bootstrap/dist/js/bootstrap.js",
-        "../node_modules/es6-shim/es6-shim.min.js"
+        "../node_modules/es6-shim/es6-shim.min.js",
+        "../node_modules/leaflet/dist/leaflet.js"
+
       ],
       "environments": {
         "source": "environments/environment.ts",
